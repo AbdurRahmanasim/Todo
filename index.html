@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO BY A.R</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js" ></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js" ></script>
+</head>
+<body>
+    <div class="maintodo">
+    <div class="todooheading">
+        <h1>
+            TODO APPLICATION
+        </h1>
+    </div>
+    <div class="todoo">
+    <div class="write">
+      
+        <input type="text" placeholder="ENTER TODO" id="todo-item">
+        <button onclick="addtodo()"  class="green">ADD TODO</button>
+        <button onclick="deleteAll()" class="red">DELETE ALL</button>
+   
+    </div>
+
+    <div class="listss">
+        <ul id="list">
+
+        </ul>
+    </div>
+</div>
+</div>
+    
+</body>
+<script src="app.js" ></script>
+</html>

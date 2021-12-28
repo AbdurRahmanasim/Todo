@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maintodo{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/pic1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0px;
+   
+}
+.todooheading{
+    text-align: center;
+    
+}
+.todooheading h1{
+    color: white;
+    
+    font-family: monospace;
+    font-size: 40px;
+}
+.todoo{
+    text-align: center;
+    
+    width: 400px;
+    height: 450px;
+    background: transparent ;
+
+    
+}
+.write{
+    /* border-bottom: 3px solid black; */
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.write input{
+    width: 170px;
+    height: 24px;
+    border-radius: 10px;
+    padding: 1px 7px;
+    font-weight: bold;
+    font-size: 15px;
+    background: linear-gradient(to right, #c9ffbf, #ffafbd)
+}
+.write button{
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 85px;
+    height: 27px;
+    
+    color: white;
+}
+.listss{
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    width: 100%;
+    height: 384px;
+    overflow-y: scroll;
+    
+    
+}
+.listss ul{
+    width: 100%;
+}
+
+.green{
+    background: linear-gradient(to right, #52c234, #061700);
+}
+.red{
+    background: linear-gradient(to right, #e52d27, #b31217);
+}
+.listss ul li{
+    
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    color: rgb(234, 250, 9);
+    letter-spacing: 1px;
+}
+.listss ul{
+    margin-top: 20px;
+}
+
+.btn1{
+    margin: 0px 10px;
+    width: 70px;
+    
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    height: 21px;
+    background-color: red;
+    color: white;
+}
+.btn2{
+    margin: 0px 10px;
+    width: 70px;
+    background-color:lightblue;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    height: 21px;
+}
